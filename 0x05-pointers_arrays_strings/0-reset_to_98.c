@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - reset value of n t0 98
  *
- * @*n: parameter to be reset
+ * @n: parameter to be reset
  *
  * Return: always 0
  */
