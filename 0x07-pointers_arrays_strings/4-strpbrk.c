@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - pointer to a string 
+ * _strpbrk - pointer to string
  * @s: string to check
  * @accept: checking string
  * Return: always 0
