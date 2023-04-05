@@ -9,9 +9,7 @@
 int _sqrt(int val, int sqrt)
 {
 	if (val > sqrt)
-	{
 		return (-1);
-	}
 	else if (val * val == sqrt)
 	{
 		return (val);
