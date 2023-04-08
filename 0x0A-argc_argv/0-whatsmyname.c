@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - the main function 
+ * main - thsi the main function
  * @argc: number of argument
  * @argv: copy of string of these argument
  * Return: always 0
