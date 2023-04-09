@@ -15,12 +15,9 @@ int main(int argc, char *argv[])
 	if (argc > 1)
 	{
 		int i, j, sum = 0;
-	/*	char *str;*/
 
 		for (i = 1; i < argc; i++)
 		{
-			/*length = strlen(str);
-			str = argv[i];*/
 			for (j = 0; argv[i][j] != '\0'; j++)
 			{
 				if (!((argv[i][j] >= '0' && argv[i][j] <= '9') || argv[i][j] == '-'))
