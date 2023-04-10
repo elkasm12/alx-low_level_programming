@@ -1,4 +1,4 @@
-# x05. C - Pointers, arrays and strings
+# 0x05. C - Pointers, arrays and strings
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 ### General
