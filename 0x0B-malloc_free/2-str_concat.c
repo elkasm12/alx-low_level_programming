@@ -18,13 +18,12 @@ char *str_concat(char *s1, char *s2)
 		c1++;
 	for (i = 0; s2[i] != '\0'; i++)
 		c2++;
-	s = malloc((c1 + c2) * sizeof(char) + 2);
+	s = malloc((c1 + c2) * sizeof(char) + 1);
 
 	for (i = 0; i < c1; i++)
 		s[i] = s1[i];
-	s[c1] = ' ';
-	for (i = c1 + 1; i < (c1 + c2 + 1); i++)
-		s[i] = s2[i - c1 - 1];
+	for (i = c1 ; i < (c1 + c2 + 1); i++)
+		s[i] = s2[i - c1];
 	s[c1 + c2 + 1] = '\0';
 	return (s);
 }
