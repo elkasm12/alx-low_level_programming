@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * alloc_grid - allocate dimensional array
+ * alloc_grid - allocate grid
  * @width: width of array
  * @height: row of array
- * Return arr
+ * Return: arr
  */
 
 int **alloc_grid(int width, int height)
