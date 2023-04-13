@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * str_concat - string concate
+ * string_nconcat - n byte string concat
  * @s1: string 1
  * @s2: string 2
+ * @n: number of bytes
  * Return: 0 or s
  */
 
@@ -26,12 +27,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	for (i = 0; i < c1 + n; i++)
 		s[i] = s1[i];
-	for(j = 0; j < n; j++)
+	for (j = 0; j < n; j++)
 	{
 		s[i] = s2[j];
 		i++;
 	}
-        s[i] = '\0';
+	s[i] = '\0';
 	return (s);
-
 }
