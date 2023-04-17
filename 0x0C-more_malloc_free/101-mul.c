@@ -82,6 +82,6 @@ int main(int argc, char **argv)
 	n1 = _atoi(s1);
 	n2 = _atoi(s2);
 	mul = n1 * n2;
-	_puts(mul + '0');
-	_puts('\n');
+	printf("%d", mul);
+	printf("\n");
 }
