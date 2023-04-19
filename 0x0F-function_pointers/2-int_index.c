@@ -2,7 +2,7 @@
 
 /**
  * int_index - search for integer
- * @array: to look in 
+ * @array: array to look in
  * @size: size of array
  * @cmp: compare criteria
  * Return: 1 or i
