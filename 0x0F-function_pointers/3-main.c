@@ -11,6 +11,7 @@ int main(int argc, char **argv)
 {
 	int  a, b;
 	char *n;
+
 	if (argc != 4)
 	{
 		printf("Error\n");
