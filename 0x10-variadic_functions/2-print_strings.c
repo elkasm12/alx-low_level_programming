@@ -2,7 +2,7 @@
 
 /**
  * print_strings - print strings
- * @separtor: separator of strings
+ * @separator: separator of strings
  * @n: number of argument
  * @...: arguments to print
  * Return: void
