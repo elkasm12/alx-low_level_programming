@@ -2,7 +2,7 @@
 
 /**
  * format_char - char print
- * @separtor: string separator
+ * @separator: string separator
  * @ar: list of arguments
  * Return: void
  */
@@ -13,7 +13,7 @@ void format_char(char *separator, va_list ar)
 }
 /**
  * format_int - int print
- * @separtor: string separator
+ * @separator: string separator
  * @ar: list of arguments
  * Return: void
  */
@@ -23,17 +23,17 @@ void format_int(char *separator, va_list ar)
 }
 /**
  * format_float - float print
- * @separtor: string separator
+ * @separator: string separator
  * @ar: list of arguments
  * Return: void
  */
 void format_float(char *separator, va_list ar)
 {
-        printf("%s%f", separator, va_arg(ar, double));
+	printf("%s%f", separator, va_arg(ar, double));
 }
 /**
  * format_string - string print
- * @separtor: string separator
+ * @separator: string separator
  * @ar: list of arguments
  * Return: void
  */
