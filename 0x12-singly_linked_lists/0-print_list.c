@@ -23,6 +23,7 @@ int _strlen(char *s)
 /**
  * print_list - print all elements of a list
  * @h: pointer to the head
+ * Return: size of list
  */
 
 size_t print_list(const list_t *h)
