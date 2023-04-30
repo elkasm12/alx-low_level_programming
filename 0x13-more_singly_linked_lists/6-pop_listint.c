@@ -3,6 +3,7 @@
 /**
  * pop_listint - head delete
  * @head: head's node
+ * Return: n value
  */
 
 int pop_listint(listint_t **head)
