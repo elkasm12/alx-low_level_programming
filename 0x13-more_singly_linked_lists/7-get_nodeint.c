@@ -4,6 +4,7 @@
  * get_nodeint_at_index - node at index
  * @head: head of node
  * @index: index to stop at
+ * Return: head
  */
 
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
