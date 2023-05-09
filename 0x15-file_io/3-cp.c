@@ -37,9 +37,9 @@ int main(int ac, char **av)
 	from_fp = close(from_fp);
 	to_fp = close(to_fp);
 	if (from_fp)
-		dprintf(STDERR_FILENO, ERR_NOCL, from_fd), exit(100);
+		dprintf(STDERR_FILENO, ERR_NOCL, from_fp), exit(100);
 	if (to_fp)
-		dprintf(STDERR_FILENO, ERR_NOCL, from_fd), exit(100);
+		dprintf(STDERR_FILENO, ERR_NOCL, to_fp), exit(100);
 
 	return (EXIT_SUCCESS);
 }
