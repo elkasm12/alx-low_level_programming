@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 /**
  * append_text_to_file - append text to a file
- * @filename: file to append text on 
+ * @filename: file to append text on
  * @text_content: text to append
  * Return: 1 or -1
  */
